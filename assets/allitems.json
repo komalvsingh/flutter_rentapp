@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "Camera",
+    "location": "Mumbai",
+    "price": 1500,
+    "image": "https://in.canon/media/image/2024/07/17/3d47abeaf9574a9ba9401c6ff2ca7bb1_EOS+R5+Mark+II+%26+RF24-105mm+f4L+IS+USM+Front+Slant.png"
+  },
+  {
+    "id": 2,
+    "title": "Tripod",
+    "location": "Pune",
+    "price": 500,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8srzyJVtTm82DGWXBwu3bhCUUw77I8INFIw&s"
+  },
+  {
+    "id": 3,
+    "title": "Ring Light",
+    "location": "Delhi",
+    "price": 800,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZTLTRW_ybnqF6I5W2Fit2nxpqGTStanJSxw&s"
+  },
+  {
+    "id": 4,
+    "title": "Green Screen Backdrop",
+    "location": "Bangalore",
+    "price": 1200,
+    "image": "https://m.media-amazon.com/images/I/51fPTKDm-AL.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Wireless Microphone",
+    "location": "Hyderabad",
+    "price": 1000,
+    "image": "https://m.media-amazon.com/images/I/71hE2gONtDL.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Gimbal Stabilizer",
+    "location": "Chennai",
+    "price": 1800,
+    "image": "https://m.media-amazon.com/images/I/51fYZBuvkPS.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Drone",
+    "location": "Goa",
+    "price": 2500,
+    "image": "https://m.media-amazon.com/images/I/61al5gk0FyL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Softbox Lighting Kit",
+    "location": "Jaipur",
+    "price": 1400,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1f-6XaFLmeesRN6OAyhUYRpXxcKB0wAFS9g&s"
+  },
+  {
+    "id": 9,
+    "title": "Lavalier Mic",
+    "location": "Ahmedabad",
+    "price": 600,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCXuVtwIel2aP1aNRd1h1Ds5CItwX1Q-vgLg&s"
+  },
+  {
+    "id": 10,
+    "title": "Backdrop Stand",
+    "location": "Kolkata",
+    "price": 900,
+    "image": "https://m.media-amazon.com/images/I/51qPWqBhHcL.jpg"
+  },
+  {
+    "id": 11,
+    "title": "DSLR Camera",
+    "location": "Mumbai",
+    "price": 3500,
+    "image": "https://m.media-amazon.com/images/I/81rSH8SfqJL.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Prime Lens",
+    "location": "Delhi",
+    "price": 2200,
+    "image": "https://m.media-amazon.com/images/I/71CtvD3IWAL.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Shotgun Microphone",
+    "location": "Bangalore",
+    "price": 1500,
+    "image": "https://m.media-amazon.com/images/I/61vwVS+PukL.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Studio Flash Light",
+    "location": "Pune",
+    "price": 3000,
+    "image": "https://m.media-amazon.com/images/I/41n-kZQuYiL.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Motorized Camera Slider",
+    "location": "Hyderabad",
+    "price": 2800,
+    "image": "https://m.media-amazon.com/images/I/61IAcXAvM7L.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Professional Camcorder",
+    "location": "Chennai",
+    "price": 5000,
+    "image": "https://m.media-amazon.com/images/I/71smKV2l2EL.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Macro Lens",
+    "location": "Goa",
+    "price": 1800,
+    "image": "https://m.media-amazon.com/images/I/61jpoaCE8PL.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Boom Arm Microphone",
+    "location": "Jaipur",
+    "price": 1300,
+    "image": "https://m.media-amazon.com/images/I/71pS1LzQu4L.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Portable Softbox",
+    "location": "Ahmedabad",
+    "price": 1000,
+    "image": "https://m.media-amazon.com/images/I/61CcJHfdmWL.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Complete Studio Setup",
+    "location": "Kolkata",
+    "price": 8000,
+    "image": "https://m.media-amazon.com/images/I/81qQ8gb8P7L.jpg"
+  }
+]

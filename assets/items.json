@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Camera",
+    "category": "Cameras",
+    "location": "Mumbai",
+    "price": 1500,
+    "image": "https://in.canon/media/image/2024/07/17/3d47abeaf9574a9ba9401c6ff2ca7bb1_EOS+R5+Mark+II+%26+RF24-105mm+f4L+IS+USM+Front+Slant.png",
+    "description": "A high-quality camera suitable for professional photography and videography."
+  },
+  {
+    "id": 2,
+    "title": "Tripod",
+    "category": "Accessories",
+    "location": "Pune",
+    "price": 500,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8srzyJVtTm82DGWXBwu3bhCUUw77I8INFIw&s",
+    "description": "A sturdy tripod for stable and smooth video recording."
+  },
+  {
+    "id": 3,
+    "title": "Ring Light",
+    "category": "Lighting",
+    "location": "Delhi",
+    "price": 800,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZTLTRW_ybnqF6I5W2Fit2nxpqGTStanJSxw&s",
+    "description": "A bright LED ring light ideal for vlogging and photography."
+  },
+  {
+    "id": 4,
+    "title": "Green Screen Backdrop",
+    "category": "Accessories",
+    "location": "Bangalore",
+    "price": 1200,
+    "image": "https://m.media-amazon.com/images/I/51fPTKDm-AL.jpg",
+    "description": "A professional green screen backdrop for chroma key effects."
+  },
+  {
+    "id": 5,
+    "title": "Wireless Microphone",
+    "category": "Audio",
+    "location": "Hyderabad",
+    "price": 1000,
+    "image": "https://m.media-amazon.com/images/I/71hE2gONtDL.jpg",
+    "description": "A high-quality wireless microphone for clear audio recording."
+  },
+  {
+    "id": 6,
+    "title": "Gimbal Stabilizer",
+    "category": "Accessories",
+    "location": "Chennai",
+    "price": 1800,
+    "image": "https://m.media-amazon.com/images/I/51fYZBuvkPS.jpg",
+    "description": "A professional gimbal stabilizer for smooth video recording."
+  },
+  {
+    "id": 7,
+    "title": "Drone",
+    "category": "Cameras",
+    "location": "Goa",
+    "price": 2500,
+    "image": "https://m.media-amazon.com/images/I/61al5gk0FyL._AC_UF1000,1000_QL80_.jpg",
+    "description": "A high-end drone for aerial photography and videography."
+  },
+  {
+    "id": 8,
+    "title": "Softbox Lighting Kit",
+    "category": "Lighting",
+    "location": "Jaipur",
+    "price": 1400,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1f-6XaFLmeesRN6OAyhUYRpXxcKB0wAFS9g&s",
+    "description": "A complete softbox lighting kit for professional studio setups."
+  },
+  {
+    "id": 9,
+    "title": "Lavalier Mic",
+    "category": "Audio",
+    "location": "Ahmedabad",
+    "price": 600,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCXuVtwIel2aP1aNRd1h1Ds5CItwX1Q-vgLg&s",
+    "description": "A small, clip-on microphone ideal for interviews and presentations."
+  },
+  {
+    "id": 10,
+    "title": "Backdrop Stand",
+    "category": "Accessories",
+    "location": "Kolkata",
+    "price": 900,
+    "image": "https://m.media-amazon.com/images/I/51qPWqBhHcL.jpg",
+    "description": "A durable backdrop stand for professional photography."
+  },
+  {
+    "id": 20,
+    "title": "Complete Studio Setup",
+    "category": "Studios",
+    "location": "Kolkata",
+    "price": 8000,
+    "image": "https://m.media-amazon.com/images/I/81qQ8gb8P7L.jpg",
+    "description": "A fully equipped studio setup including lighting, audio, and stabilizers for professional use."
+  }
+]
