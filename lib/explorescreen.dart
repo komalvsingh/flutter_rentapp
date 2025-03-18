@@ -14,9 +14,9 @@ class ExploreScreen extends StatefulWidget {
 class _ExploreScreenState extends State<ExploreScreen> {
   List<dynamic> allItems = [];
   List<dynamic> filteredItems = [];
-  String _selectedCategory = 'All';
+  final String _selectedCategory = 'All';
   String _searchQuery = '';
-  RangeValues _priceRange = RangeValues(0, 10000);
+  final RangeValues _priceRange = RangeValues(0, 10000);
   bool _isFilterVisible = false;
   bool _isLoading = true;
 

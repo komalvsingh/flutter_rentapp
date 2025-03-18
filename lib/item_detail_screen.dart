@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'item.dart';
+import 'payment_screen.dart'; // Import the PaymentScreen
 
 class ItemDetailScreen extends StatelessWidget {
   final Item item;
@@ -254,7 +255,7 @@ class ItemDetailScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 16),
-                  Container(
+                  SizedBox(
                     height: 180,
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
@@ -341,99 +342,18 @@ class ItemDetailScreen extends StatelessWidget {
         ),
         child: ElevatedButton(
           onPressed: () {
-            // Show rent confirmation dialog
-            showDialog(
-              context: context,
-              builder: (context) => AlertDialog(
-                title: Text('Confirm Rental'),
-                content: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text('You are about to rent:'),
-                    SizedBox(height: 8),
-                    Text(
-                      item.name,
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 16,
-                        color: darkPurple,
-                      ),
-                    ),
-                    SizedBox(height: 16),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text('Daily rental:'),
-                        Text(
-                          '₹${item.price}',
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 8),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text('Security deposit:'),
-                        Text(
-                          '₹${item.price * 2}',
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                      ],
-                    ),
-                    Divider(height: 24),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          'Total payable:',
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                        Text(
-                          '₹${item.price * 3}',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: darkPurple,
-                            fontSize: 16,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ],
+            // Navigate to payment screen
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => PaymentScreen(
+                  item: {
+                    'title': item.name,
+                    'price': item.price,
+                    'image': item.imageUrl,
+                    'location': item.category, // Using category as location
+                  },
                 ),
-                actions: [
-                  TextButton(
-                    onPressed: () => Navigator.pop(context),
-                    child: Text('Cancel'),
-                    style: TextButton.styleFrom(
-                      foregroundColor: Colors.grey[700],
-                    ),
-                  ),
-                  ElevatedButton(
-                    onPressed: () {
-                      Navigator.pop(context);
-                      // Process rental logic would go here
-
-                      // Show success message
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content:
-                              Text('Rental request submitted successfully!'),
-                          backgroundColor: darkPurple,
-                          action: SnackBarAction(
-                            label: 'View',
-                            onPressed: () {},
-                            textColor: Colors.white,
-                          ),
-                        ),
-                      );
-                    },
-                    child: Text('Rent Now'),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: primaryPurple,
-                    ),
-                  ),
-                ],
               ),
             );
           },

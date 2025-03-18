@@ -207,7 +207,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
 
             // Enhanced Item Cards
-            Container(
+            SizedBox(
               height: 280,
               child: ListView.builder(
                 padding: EdgeInsets.symmetric(horizontal: 16),
@@ -352,7 +352,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   SizedBox(height: 12),
-                  Container(
+                  SizedBox(
                     height: 100,
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
@@ -417,8 +417,8 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         backgroundColor: Colors.deepPurple,
-        child: Icon(Icons.add),
         tooltip: 'List your equipment',
+        child: Icon(Icons.add),
       ),
     );
   }

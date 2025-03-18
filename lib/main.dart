@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:razorpay_flutter/razorpay_flutter.dart';
 import 'package:rent_app/splashscreen.dart';
 
 import 'firebase_options.dart'; // Ensure this is the correct import for firebase_options.dart
@@ -7,7 +8,8 @@ import 'firebase_options.dart'; // Ensure this is the correct import for firebas
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-
+  // Stripe.publishableKey = publishable_key;
+  // await Stripe.instance.applySettings();
   runApp(MyApp());
 }
 
